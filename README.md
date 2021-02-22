@@ -22,6 +22,8 @@ Lifts-Manager uses a number of open source projects to work properly:
 - [Docker] - easy tests and deployment
 - [jQuery] - duh
 
+## Exploring the code 
+ `/src → server.ts → app.ts → /routes/v1/index.ts → /auth/apikey.ts → schema.ts → /helpers/validator.ts → asyncHandler.ts → /routes/v1/action.ts → schema.ts → /helpers/validator.ts → liftHandler.ts → /database/repository/LiftRepo.ts → /database/model/Lift.ts → /core/ApiResponses.ts`
 ## Installation
 
 * Install using Docker Compose [**Recommended Method**] 
